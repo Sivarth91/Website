@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "parcel index.html",
+      "scss": "sass --watch src/assets/styles/styles.scss:src/assets/styles/styles.css",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sivarth",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "sass": "^1.63.6",
+    "scss": "^0.2.4"
+  }
+}
