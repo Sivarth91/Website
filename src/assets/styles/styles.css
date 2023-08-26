@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(180deg, rgba(0, 46, 104, 0.97) 50%, rgba(12, 31, 70, 0.75) 100%);
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  margin: 50px 500px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul li {
+  list-style: none;
+  font-size: 20px;
+}
+header h1 {
+  width: 450px;
+  font-size: 48px;
+  margin: 30vh 10vw;
+}
+
+.sec1 {
+  width: 100%;
+  margin-top: 400px;
+}
+.sec1 h2 {
+  margin: 0 10vw;
+}
+.sec1 p {
+  width: 500px;
+  margin: 5vh 20vw;
+}
+
+.sec2 .sec2__titles,
+.sec2 .sec2__experience,
+.sec2 .sec2__foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .sec2__titles {
+  flex-direction: column;
+}
+.sec2 .sec2__titles h2 {
+  margin: 10vh 0 5vh 0;
+}
+.sec2 .sec2__titles p {
+  width: 700px;
+}
+.sec2 .sec2__experience {
+  flex-direction: row;
+  margin: 10vh 0;
+}
+.sec2 .sec2__experience img {
+  width: 500px;
+}
+.sec2 .sec2__experience p {
+  width: 500px;
+  text-align: right;
+}
+.sec2 .sec2__foot {
+  flex-direction: column;
+  margin: 20vh 0;
+}
+.sec2 .sec2__foot p {
+  width: 700px;
+}
+.sec2 .sec2__foot button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  background-color: #151516;
+  color: #fff;
+  margin: 10vh;
+}
+.sec2 .sec2__foot button:hover {
+  cursor: pointer;
+}
+
+.sec3 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3 img {
+  width: 200px;
+}
+.sec3 ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 20vh 0;
+}
+.sec3 ul li {
+  display: flex;
+  flex-direction: column;
+}
+.sec3 ul li a {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0;
+}
+.sec3 button {
+  width: 400px;
+  height: 50px;
+  background-color: #151516;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sec3 button:hover {
+  cursor: pointer;
+}
+
+.sec4 {
+  width: 100%;
+  margin: 50vh 0 30vh 0;
+}
+.sec4 .sec4__container {
+  width: 300px;
+  height: 400px;
+  background-color: #333333;
+  margin: 0 20vw 10vh;
+  border-radius: 30px;
+}
+.sec4 .sec4__container h3 {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: normal;
+}
+.sec4 .sec4__container ul {
+  margin: 0 4vw;
+}
+.sec4 .sec4__container ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+.sec4 .sec4__container ul li a {
+  margin: 0 0 0 20px;
+}
+.sec4 .sec4__container ul li img {
+  width: 60px;
+}
+
+footer {
+  background-color: #151516;
+  padding: 70px 0 40px 0;
+}
+footer .footer__els {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15vw;
+}
+footer .footer__els .footer__el {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__els .footer__el ul {
+  display: block;
+}
+footer .footer__els .footer__el ul li {
+  list-style: disc;
+  line-height: 25px;
+}
+footer h3 {
+  text-align: center;
+  margin: 10vh 0 0 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

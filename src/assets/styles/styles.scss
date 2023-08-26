@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap');
+
+$background: linear-gradient(180deg, rgba(0, 46, 104, 0.97) 50%, rgba(12, 31, 70, 0.75) 100%);
+$footerBgc: #151516;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: $background;
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+
+    nav {
+        margin: 50px 500px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            li {
+                list-style: none;
+                font-size: 20px;
+            }
+        }
+    }
+
+    h1 {
+        width: 450px;
+        font-size: 48px;
+        margin: 30vh 10vw;
+    }
+
+}
+
+.sec1 {
+    width: 100%;
+    margin-top: 400px;
+
+    h2 {
+        margin: 0 10vw;
+    }
+
+    p {
+        width: 500px;
+        margin: 5vh 20vw;
+    }
+}
+
+.sec2 {
+    //width: 100%;
+
+    .sec2__titles,
+    .sec2__experience,
+    .sec2__foot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec2__titles {
+        flex-direction: column;
+
+        h2 {
+            margin: 10vh 0 5vh 0;
+        }
+
+        p {
+            width: 700px;
+        }
+    }
+
+    .sec2__experience {
+        flex-direction: row;
+        margin: 10vh 0;
+
+        img {
+            width: 500px;
+        }
+
+        p {
+            width: 500px;
+            text-align: right;
+        }
+    }
+
+    .sec2__foot {
+        flex-direction: column;
+        margin: 20vh 0;
+
+        p {
+            width: 700px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            font-size: 18px;
+            border-radius: 30px;
+            border: none;
+            background-color: $footerBgc;
+            color: #fff;
+            margin: 10vh;
+
+           &:hover {
+                cursor: pointer;
+           }
+        }
+    }
+}
+
+.sec3 {
+    //width: 100%;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin: 20vh 0;
+
+        li {
+            display: flex;
+            flex-direction: column;
+
+
+            a {
+                font-size: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5vh 0;
+            }
+
+        }
+    }
+
+    button {
+        width: 400px;
+        height: 50px;
+        background-color: $footerBgc;
+        font-size: 18px;
+        border-radius: 30px;
+        border: none;
+        color: #fff;
+
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+}
+
+.sec4 {
+    width: 100%;
+    margin: 50vh 0 30vh 0;
+
+    .sec4__container {
+        width: 300px;
+        height: 400px;
+        background-color: #333333;
+        margin: 0 20vw 10vh;
+        border-radius: 30px;
+
+        h3 {
+            padding: 50px;
+            font-size: 25px;
+            font-weight: normal;
+        }
+
+        ul {
+            margin: 0 4vw;
+
+            li {
+                display: flex;
+                align-items: center;
+                margin: 0 0 30px 0;
+
+                a {
+                    margin: 0 0 0 20px;
+                }
+
+                img {
+                    width: 60px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $footerBgc;
+    padding: 70px 0 40px 0;
+
+    .footer__els {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 15vw;
+
+        .footer__el {
+            display: flex;
+            flex-direction: column;
+
+            h4 {
+            }
+
+            ul {
+                display: block;
+
+
+                li {
+                    list-style: disc;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+
+    h3 {
+        text-align: center;
+        margin: 10vh 0 0 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
