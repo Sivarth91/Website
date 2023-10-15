@@ -208,4 +208,10 @@ footer h3 {
   margin: 10vh 0 0 0;
 }
 
+.offers__sec1 .offers__web h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
