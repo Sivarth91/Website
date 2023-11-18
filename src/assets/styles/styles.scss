@@ -3,7 +3,7 @@
 $background: linear-gradient(180deg, rgba(0, 46, 104, 0.97) 50%, rgba(12, 31, 70, 0.75) 100%);
 $footerBgc: #151516;
 
-* {
+*, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -235,18 +235,20 @@ footer {
         display: flex;
         justify-content: center;
         flex-direction: row;
-        gap: 15vw;
+        gap: 10vw;
 
         .footer__el {
             display: flex;
             flex-direction: column;
 
             h4 {
+                font-size: 18px;
             }
 
             ul {
-                display: block;
-
+                position: relative;
+                top: 10px;
+                left: 30px;
 
                 li {
                     list-style: disc;
@@ -262,28 +264,22 @@ footer {
     }
 }
 
-
-
-
+@media screen and (max-width: 1050px) {
+    .sec2 {
+        .sec2__titles, .sec2__experience {
+            font-size: 12px;
+        }
+        .sec2__experience {
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+}
 
 @media screen and (max-width: 576px) {
 
 }
 
 @media screen and (max-width: 375px) {
-
-}
-
-.offers__sec1 {
-
-    .offers__web {
-
-        h2 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-
 
 }

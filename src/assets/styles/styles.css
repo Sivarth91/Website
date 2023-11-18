@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap");
-* {
+*, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -190,14 +190,19 @@ footer .footer__els {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 15vw;
+  gap: 10vw;
 }
 footer .footer__els .footer__el {
   display: flex;
   flex-direction: column;
 }
+footer .footer__els .footer__el h4 {
+  font-size: 18px;
+}
 footer .footer__els .footer__el ul {
-  display: block;
+  position: relative;
+  top: 10px;
+  left: 30px;
 }
 footer .footer__els .footer__el ul li {
   list-style: disc;
@@ -208,10 +213,14 @@ footer h3 {
   margin: 10vh 0 0 0;
 }
 
-.offers__sec1 .offers__web h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 1050px) {
+  .sec2 .sec2__titles, .sec2 .sec2__experience {
+    font-size: 12px;
+  }
+  .sec2 .sec2__experience {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
