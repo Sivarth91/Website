@@ -190,7 +190,7 @@ footer .footer__els {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 10vw;
+  gap: 15vw;
 }
 footer .footer__els .footer__el {
   display: flex;
@@ -220,6 +220,65 @@ footer h3 {
   .sec2 .sec2__experience {
     flex-direction: column;
     gap: 50px;
+  }
+}
+@media screen and (max-width: 850px) {
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec1 h2 {
+    margin: 0;
+  }
+  .sec1 p {
+    width: 300px;
+    text-align: center;
+  }
+  .sec2 .sec2__titles p, .sec2 .sec2__experience p, .sec2 .sec2__foot p {
+    width: 350px;
+    text-align: center;
+  }
+  .sec2 .sec2__experience img {
+    width: 300px;
+  }
+  .sec2 .sec2__foot button {
+    width: 130px;
+    font-size: 15px;
+  }
+  .sec3 ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec3 ul img {
+    width: 150px;
+  }
+  .sec3 button {
+    width: 200px;
+    font-size: 15px;
+  }
+  .sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec4 .sec4__container {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__els {
+    flex-direction: column;
+  }
+  footer .footer__els .footer__el h4 {
+    align-items: center;
   }
 }
 
